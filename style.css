@@ -3,6 +3,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 .about {
     margin: 0 auto;
