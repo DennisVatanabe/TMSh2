@@ -6,14 +6,87 @@ body {
     /*margin: 0 auto;*/
     margin-top: 50px;
 }
+.tabs {
+    width: 1170px;
+    margin: 0 auto;
+}
+.tabs__body {
+    font-family: 'Open-sans';
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+}
+.icon__tabs {
+    min-width: 200px;
+    min-height: 27px;
+    text-align: center;
+    margin: 0;
+    padding-top: 13px;
+    border: 1px solid #C6CBCD;
+    ;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+.icon__tabs2,.icon__tabs3 {
+    min-width: 183px;
+    min-height: 27px;
+    text-align: center;
+    margin: 0;
+    padding-top: 13px;
+    border: 1px solid #C6CBCD;
+    ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.tabs-items__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    /*display: flex;*/
+    align-items: center;
+    min-width: 570px;
+    min-height: 77px;
+    padding-left: 100px;
+    padding-top: 47px;
+}
+.tabs-items__text {
+    max-width: 570px;
+    max-height: 210px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /*display: flex;*/
+    align-items: center;
+    padding-left: 100px;
+}
+.tabs-items__button {
+    color: #EC7979;
+    width: 270px;
+    height: 58px;
+    padding-left: 100px;
+    color: rgb(10, 3, 3);
+    border: none;
+    /*margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 150px;
+    display: block;*/
+}
 .about {
     margin: 0 auto;
 }
 .about__body {
 }
 .about__header {
-   margin: 0 0 133px 0;
-   align-items: center;
+    margin: 0 0 133px 0;
+    align-items: center;
 }
 .about__title {
 
@@ -57,15 +130,14 @@ body {
 .item__about {
 }
 .item-about__icon {
-        margin: 0 auto 40px auto;
-        border-radius: 50%;
-        width: 92px;
-        height: 92px;
-        border: 1px solid #EC7979;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-     
+    margin: 0 auto 40px auto;
+    border-radius: 50%;
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .item-about__title {
     font-family: 'Open Sans';
@@ -79,13 +151,13 @@ body {
 }
 .item-about__text {
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 hr
 {
