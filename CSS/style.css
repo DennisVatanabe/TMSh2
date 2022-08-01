@@ -82,6 +82,7 @@ button {
     border-bottom: solid 1px;
     border-color: #C6CBCD;
     margin-bottom: 50px;
+    padding-right: 27px;
 }
 .label__items {
     display: flex;
@@ -91,6 +92,7 @@ button {
     max-height: 500px;
     border-left: none;
     margin-top: -1px;
+    /* margin-left: 27px; */
 }
     
 .about {
