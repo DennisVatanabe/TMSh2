@@ -10,7 +10,7 @@ body {
     width: 1170px;
     margin: 0 auto;
 }
-.tabs__body {
+.tabs__label {
     font-family: 'Open-sans';
     font-weight: 400;
     font-size: 14px;
@@ -27,7 +27,7 @@ body {
     border-bottom: none;
     border-radius: 5px 5px 0 0;
 }
-.icon__tabs2,.icon__tabs3 {
+.icon__tabs2,.icon__tabs3,.icon__tabs0 {
     min-width: 183px;
     min-height: 27px;
     text-align: center;
@@ -63,33 +63,45 @@ body {
     /*display: flex;*/
     align-items: center;
     padding-left: 100px;
+    margin-top: 27px;
 }
-.tabs-items__button {
-    color: #EC7979;
+button {
+    background-color: #EC7979;
     width: 270px;
     height: 58px;
-    padding-left: 100px;
-    color: rgb(10, 3, 3);
+    color: white;
     border: none;
-    /*margin-bottom: 30px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    height: 150px;
-    display: block;*/
+    margin-left: 100px;
+    margin-top: 27px;
+    margin-bottom: 54px;
 }
+.tabs-items__info {
+    display: flex;
+    flex-direction: column;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #C6CBCD;
+    margin-bottom: 50px;
+}
+.label__items {
+    display: flex;
+}
+.tabs__img {
+    border: solid #C6CBCD 1px;
+    max-height: 500px;
+    border-left: none;
+    margin-top: -1px;
+}
+    
 .about {
     margin: 0 auto;
 }
-.about__body {
-}
+
 .about__header {
     margin: 0 0 133px 0;
     align-items: center;
 }
 .about__title {
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -99,8 +111,7 @@ body {
     text-align: center;
     padding: 0 0 30px 0;
 }
-.title {
-}
+
 .about__text {
     font-family: 'Raleway';
     font-weight: 400;
@@ -127,8 +138,7 @@ body {
     -ms-flex: 0 0 30%;
     flex: 0 0 30%;
 }
-.item__about {
-}
+
 .item-about__icon {
     margin: 0 auto 40px auto;
     border-radius: 50%;
