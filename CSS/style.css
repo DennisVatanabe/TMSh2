@@ -2,8 +2,6 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    /*max-width: 1170px;*/
-    /*margin: 0 auto;*/
     margin-top: 50px;
 }
 .tabs {
@@ -45,7 +43,6 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 41px;
-    /*display: flex;*/
     align-items: center;
     min-width: 570px;
     min-height: 77px;
@@ -60,7 +57,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    /*display: flex;*/
     align-items: center;
     padding-left: 100px;
     margin-top: 27px;
@@ -92,7 +88,6 @@ button {
     max-height: 500px;
     border-left: none;
     margin-top: -1px;
-    /* margin-left: 27px; */
 }
     
 .about {
@@ -125,10 +120,7 @@ button {
     padding: 30px 0 0 0;
 }
 .about__row {
-   /* display: -webkit-box; */
-    /* display: -ms-flexbox;*/
     display: flex;
-    /* margin: 0 -15px; */
     width: 1170px;
     max-width: 1170px;
     align-items: center;
